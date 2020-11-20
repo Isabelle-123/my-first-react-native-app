@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "sellTheThing",
-    "slug": "sellTheThing",
+    "name": "my-first-react-native-app",
+    "slug": "my-first-react-native-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
