@@ -13,33 +13,30 @@ const moderateScale = (size, factor = 0.5) => size + ( scale(size) - size ) * fa
 //https://medium.com/soluto-engineering/size-matters-5aeeb462900a
 
 export const text = {
- 
+  mini: {
+    fontSize: verticalScale(12),
+    color: "#fff",
+    fontStyle: 'italic',
+    textAlign: 'center',
+  },
 
-    mini: {
-      fontSize: verticalScale(12),
-      color: "#fff",
-      fontStyle: 'italic',
-      textAlign: 'center',
-    },
+  small: {
+    fontSize: verticalScale(12),
+    color: "#fff",
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
 
-    small: {
-      fontSize: verticalScale(12),
-      color: "#fff",
-      fontWeight: 'bold',
-      textAlign: 'center',
-    },
+  medium: {
+    fontSize: verticalScale(18),
+    color : "#fff",
+    fontWeight: 'bold',
+  },
 
-    medium: {
-      fontSize: verticalScale(18),
-      color : "#fff",
-      fontWeight: 'bold',
-    },
-
-    large: {
-      fontSize: verticalScale(40),
-      fontWeight: '600',
-      color: "#fff",
-      fontWeight: 'bold',
-    },
-
-  };
+  large: {
+    fontSize: verticalScale(40),
+    fontWeight: '600',
+    color: "#fff",
+    fontWeight: 'bold',
+  },
+};
