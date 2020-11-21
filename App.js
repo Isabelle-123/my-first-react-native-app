@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Text, View, StyleSheet, ImageBackground } from 'react-native';
+import { Text, View, StyleSheet, ImageBackground,  } from 'react-native';
 import Navbar from './components/Navbar'
 
 
@@ -12,6 +12,7 @@ const App = () => {
     <View style={styles.container}>
       <ImageBackground source={background} style={styles.background}/>
       <Navbar />
+      
     </View>
   );
 };
@@ -25,6 +26,9 @@ const styles = StyleSheet.create({
     //overflow: 'scroll',
    
   },
+
+
+ 
 
   background: {
     flex: 1,

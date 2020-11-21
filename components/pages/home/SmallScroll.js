@@ -39,27 +39,29 @@ const SmallScroll = () => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 2,
     paddingLeft: '8%',
-    marginTop: '5%'
+    marginTop: 50,
+    marginBottom: '10%',
   },
 
   imgContainer: {
+    flex: 2,
     width: '60%',
-    height: 150,
-    marginTop: '3%',
+
   },
 
-  img: {
-    flex: 1,
-    width: undefined,
-    height: undefined,
-    resizeMode: 'cover',
-    
-    borderBottomLeftRadius: 15,
-    borderBottomRightRadius: 15,
-    borderTopRightRadius: 15,
-  }
+
+    img: {
+      flex: 3,
+      // width: undefined,
+      marginTop: 10,
+      resizeMode: 'cover',
+      borderBottomLeftRadius: 15,
+      borderBottomRightRadius: 15,
+      borderTopRightRadius: 15,
+
+    }
 });
 
 export default SmallScroll;

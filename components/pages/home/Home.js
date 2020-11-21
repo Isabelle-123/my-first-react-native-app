@@ -1,6 +1,6 @@
 
 import React from "react";
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, ScrollView } from "react-native";
 import Header from './Header'
 import SmallScroll from './SmallScroll'
 import LargeScroll from './LargeScroll'
@@ -17,7 +17,7 @@ const Home = () => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 0.8,
+    flex: 1,
   },
 });
 

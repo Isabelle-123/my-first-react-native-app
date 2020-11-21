@@ -24,34 +24,27 @@ const LargeScroll = () => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 0.9,
+    flex: 3,
     paddingLeft: '5%',
-    // marginTop: 0,
-    // paddingTop: 0,
+    marginBottom: '20%'
   },
 
   imgContainer: {
-    flex: 1,
-    //width: undefined,
-    height: undefined,
-     width: '80%',
+  flex: 1,
+    // width: '70%',
     // height: 200,
-    // marginBottom: 300,
-    marginTop: '3%',
+    // marginTop: '3%',
+    width: '80%',
   },
 
   img: {
-    // flex: 1,
-    width: undefined,
-    height: undefined,
-    height: 300,
-    // resizeMode: 'contain',
-    // resizeMode: 'cover',
-    
+    flex: 1,
+    // width: undefined,
+    marginTop: 10,
+    resizeMode: 'cover',
     borderBottomLeftRadius: 15,
     borderBottomRightRadius: 15,
     borderTopRightRadius: 15,
-  // marginRight: 50,
   }
 });
 // const styles = StyleSheet.create({

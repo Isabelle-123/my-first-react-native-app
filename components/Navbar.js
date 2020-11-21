@@ -6,7 +6,7 @@ import Home from './pages/home/Home'
 import Explore from './pages/Explore'
 import Insights from './pages/Insights'
 import Me from './pages/Me'
-import { Text, View, StyleSheet, ImageBackground, Dimensions, tabBarHeight } from 'react-native';
+import { Text, View, StyleSheet, ImageBackground, Dimensions, tabBarHeight, ScrollView} from 'react-native';
 import { Inter_100Thin } from '@expo-google-fonts/inter';
 
 
@@ -62,6 +62,8 @@ export default function Navbar() {
           // position: 'relative',
           paddingBottom: 5,
         },
+
+        
       }}
       > 
         <Tab.Screen name="Home" component={Home} />
