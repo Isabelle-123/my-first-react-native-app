@@ -22,14 +22,14 @@ const LargeScroll = () => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1.8,
+    flex: 1.3,
     paddingLeft: '5%',
     marginBottom: '10%',
   },
 
   img: {
     flex: 1,
-    width: width * .7,
+    width: height * .33,
     marginTop: 10,
     resizeMode: 'cover',
     borderBottomLeftRadius: 10,

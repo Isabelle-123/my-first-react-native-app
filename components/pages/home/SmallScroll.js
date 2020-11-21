@@ -18,20 +18,19 @@ const SmallScroll = () => {
       />
     </View>
   );
-// }
 };
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1.6,
+    flex: 1,
     paddingLeft: '8%',
-    marginTop: 100,
+    marginTop: '15%',
     marginBottom: '5%',
   },
 
   img: {
     flex: 1,
-    width: width * .6,
+    width: height * .25,
     marginTop: 10,
     resizeMode: 'cover',
     borderBottomLeftRadius: 10,

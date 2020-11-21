@@ -30,7 +30,7 @@ export const text = {
     },
 
     medium: {
-      fontSize: verticalScale(17),
+      fontSize: verticalScale(18),
       color : "#fff",
       fontWeight: 'bold',
     },
