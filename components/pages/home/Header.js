@@ -6,7 +6,7 @@ import { text } from '../../../globalStyle'
 const Header = () => {
   return (
     <SafeAreaView style={styles.container}>
-    <Ionicons name="md-notifications" style={styles.bell} size={30}/>
+    <Ionicons name="md-notifications" style={styles.bell} size={35}/>
         <View style={styles.wrapper}> 
             <View style={styles.column}> 
                 <Text style={text.large}>3</Text>
@@ -30,15 +30,14 @@ const Header = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 0.9,
-        paddingTop: Platform.OS === 'android' ? 15 : 0,
-        //paddingTop: 20,
+        paddingTop: Platform.OS === 'android' ? 20 : 0,
     },
 
     bell: {
         color:'blue',
-        transform: [{ rotate: '30deg' }],
+        transform: [{ rotate: '25deg' }],
         top: 100,
-        left: '1%',
+        left: '2%',
     },
     
     wrapper: {

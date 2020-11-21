@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "React native app with navigation and image slider",
+    "githubUrl": "https://github.com/Isabelle-123/my-first-react-native-app"
   }
 }
