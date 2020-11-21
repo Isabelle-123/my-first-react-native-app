@@ -3,7 +3,7 @@ import React from "react";
 import { View, StyleSheet, Text, Image, Dimensions, ScrollView } from "react-native";
 import { text } from '../../../globalStyle'
 
-const { width, height} = Dimensions.get('window');
+const { height } = Dimensions.get('window');
 
 const SmallScroll = () => {
 
@@ -43,13 +43,13 @@ const styles = StyleSheet.create({
   img: {
     flex: 1,
     width: height * .25,
-    marginTop: 10,
+    marginTop: '2%',
     marginRight: 20,
     resizeMode: 'cover',
     borderBottomLeftRadius: 10,
     borderBottomRightRadius: 10,
     borderTopRightRadius: 10,
-    }
+  }
 });
 
 export default SmallScroll;
