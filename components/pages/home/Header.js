@@ -3,12 +3,10 @@ import { SafeAreaView, StyleSheet, Text, View } from "react-native";
 import { Ionicons } from '@expo/vector-icons';
 import { text } from '../../../globalStyle'
 
-
 const Header = () => {
   return (
     <SafeAreaView style={styles.container}>
     <Ionicons name="md-notifications" style={styles.bell} size={30}/>
-    
         <View style={styles.wrapper}> 
             <View style={styles.column}> 
                 <Text style={text.large}>3</Text>
@@ -20,7 +18,6 @@ const Header = () => {
                 <Text style={text.small}>Completed{'\n'}Activites</Text>
             </View>
         </View>
-
       <View style={styles.miniContainer}>
         <Text style={text.mini}>
             Complete 2 sessions to reach your goal!

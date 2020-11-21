@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, StyleSheet, Text, Button, SafeAreaView } from 'react-native'
+import { View, Text } from 'react-native'
 import { text } from '../../globalStyle'
 
 const Explore = () => {

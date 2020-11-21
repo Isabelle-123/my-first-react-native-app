@@ -31,15 +31,6 @@ const SmallScroll = () => {
     </View>
   );
 };
-// 152
-// 157
-// 163
-// 159
-
-// 192
-// 175
-// 20
-// 2003
 
 const styles = StyleSheet.create({
   container: {

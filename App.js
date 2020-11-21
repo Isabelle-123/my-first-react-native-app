@@ -1,12 +1,9 @@
 import * as React from 'react';
-import { Text, View, StyleSheet, ImageBackground,  } from 'react-native';
+import { View, StyleSheet, ImageBackground } from 'react-native';
 import Navbar from './components/Navbar'
-
 
 const App = () => {
   const background = require('./assets/background.png')
-
-  console.log('ok');
 
   return (
     <View style={styles.container}>
@@ -17,18 +14,12 @@ const App = () => {
   );
 };
 
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: "center",
     color : "#fff",
-    //overflow: 'scroll',
-   
   },
-
-
- 
 
   background: {
     flex: 1,

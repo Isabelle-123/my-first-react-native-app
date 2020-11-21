@@ -3,7 +3,7 @@ import React from "react";
 import { View, StyleSheet, Text, Image, Dimensions, ScrollView } from "react-native";
 import { text } from '../../../globalStyle'
 
-const { width, height} = Dimensions.get('window');
+const { height} = Dimensions.get('window');
 
 const LargeScroll = () => {
 
@@ -30,7 +30,6 @@ const LargeScroll = () => {
     </View>
   );
 };
-
 
 const styles = StyleSheet.create({
   container: {
