@@ -11,4 +11,4 @@ To check it out, go to https://expo.io/@aloy/projects/my-first-react-native-app.
 - CSS
 - Flexbox
 
-![](assets/icon.png)
+![](assets/homescreen.png)
