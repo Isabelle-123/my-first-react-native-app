@@ -3,7 +3,7 @@ import React from "react";
 import { View, StyleSheet, Text, Image, Dimensions } from "react-native";
 import { text } from '../../../globalStyle'
 
-// var { width}  = Dimensions.get('window');
+const { width, height} = Dimensions.get('window');
 
 const LargeScroll = () => {
 
@@ -12,11 +12,9 @@ const LargeScroll = () => {
       <Text style={text.medium}>
         Large horizontal scroll
       </Text>
-      <View style={styles.imgContainer}> 
       <Image source={{ uri: 'https://picsum.photos/300/200' }}
         style={styles.img}
       />
-    </View>
     </View>
   );
 };
@@ -24,64 +22,20 @@ const LargeScroll = () => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 3,
+    flex: 1.8,
     paddingLeft: '5%',
-    marginBottom: '20%'
-  },
-
-  imgContainer: {
-  flex: 1,
-    // width: '70%',
-    // height: 200,
-    // marginTop: '3%',
-    width: '80%',
+    marginBottom: '10%',
   },
 
   img: {
     flex: 1,
-    // width: undefined,
+    width: width * .7,
     marginTop: 10,
     resizeMode: 'cover',
-    borderBottomLeftRadius: 15,
-    borderBottomRightRadius: 15,
-    borderTopRightRadius: 15,
+    borderBottomLeftRadius: 10,
+    borderBottomRightRadius: 10,
+    borderTopRightRadius: 10,
   }
 });
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     paddingLeft: '3%',
-//   },
-
-//   imgContainer: {
-//     width: '80%',
-//     height: 150,
-//   },
-
-//   img: {
-//     // flex: 1,
-//     // width: width * 0.5,
-//     // overflow: 'visible',
-//     // width: undefined,
-//     // height: undefined,
-//     // resizeMode: 'cover',
-//       flex: 4,
-//       width: undefined,
-//       height: undefined,
-//       resizeMode: 'cover',
-      
-//       borderBottomLeftRadius: 10,
-//       borderBottomRightRadius: 10,
-//       borderTopRightRadius: 10,
-//     // marginRight: 50,
-//     // marginLeft: '5%',
-//     //     height: 100,
-//     //     flex: 3,
-    
-//     // borderBottomLeftRadius: 5,
-//     // borderBottomRightRadius: 5,
-//     // borderTopRightRadius: 5,
-//   }
-// });
 
 export default LargeScroll;

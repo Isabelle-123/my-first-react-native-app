@@ -32,10 +32,9 @@ const Header = () => {
 
 const styles = StyleSheet.create({
     container: {
-        paddingRight: '5%',
+        flex: 1,
         paddingTop: Platform.OS === 'android' ? 15 : 0,
         //paddingTop: 20,
-
     },
 
     bell: {
@@ -57,6 +56,8 @@ const styles = StyleSheet.create({
 
     miniContainer: {
         marginTop: '5%',
+        marginRight: '5%',
+        marginLeft: '5%',
     },
 
 });
