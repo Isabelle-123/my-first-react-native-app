@@ -22,10 +22,12 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     color : "#fff",
+    //overflow: 'scroll',
    
   },
 
   background: {
+    flex: 1,
     position: 'absolute',
     left: 0,
     right: 0,

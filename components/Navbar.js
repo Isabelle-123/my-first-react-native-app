@@ -42,31 +42,27 @@ export default function Navbar() {
         })}
 
         tabBarOptions={{
-            activeTintColor: '#fff',
-            inactiveTintColor: 'grey',
-            alignItems: 'center',
-            position: 'absolute',
-            style: {
-                backgroundColor: 'transparent',
-                position: 'relative',
-                left: 0,
-                right: 0,
-                bottom: 0,
-                elevation: 0,
-                marginBottom: '5%',
-      
-            position: 'absolute',
+          activeTintColor: '#fff',
+          // position: 'absolute',
+          // marginBottom: 5,
 
-            },
-
-        //   tabStyle: {
-        //     color: 'blue',
-        //     },
-
-            labelStyle: {
-                position: 'absolute',
-            },
-        }}
+        tabStyle: {
+          backgroundColor: '#202074',
+        },
+        style: {
+          // backgroundColor: 'transparent',
+          backgroundColor: '#202074',
+          // left: 0,
+          // right: 0,
+          bottom: 0,
+          elevation: 0,
+          paddingTop: 5,
+        },
+        labelStyle: {
+          // position: 'relative',
+          paddingBottom: 5,
+        },
+      }}
       > 
         <Tab.Screen name="Home" component={Home} />
         <Tab.Screen name="Explore" component={Explore} />

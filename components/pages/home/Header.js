@@ -33,8 +33,8 @@ const Header = () => {
 const styles = StyleSheet.create({
     container: {
         paddingRight: '5%',
-        // paddingTop: Platform.OS === 'android' ? 25 : 30,
-        paddingTop: 20,
+        paddingTop: Platform.OS === 'android' ? 15 : 0,
+        //paddingTop: 20,
 
     },
 

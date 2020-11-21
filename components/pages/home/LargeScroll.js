@@ -31,17 +31,22 @@ const styles = StyleSheet.create({
   },
 
   imgContainer: {
-    width: '80%',
-    height: 200,
+    flex: 1,
+    //width: undefined,
+    height: undefined,
+     width: '80%',
+    // height: 200,
     // marginBottom: 300,
     marginTop: '3%',
   },
 
   img: {
-    flex: 1,
+    // flex: 1,
     width: undefined,
     height: undefined,
-    resizeMode: 'cover',
+    height: 300,
+    // resizeMode: 'contain',
+    // resizeMode: 'cover',
     
     borderBottomLeftRadius: 15,
     borderBottomRightRadius: 15,
