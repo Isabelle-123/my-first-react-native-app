@@ -7,6 +7,7 @@ Download Expo development client to your smartphone and scan the QR-code.
 
 ## 🦄 Tech stack
 
+- Expo
 - React Native (navigation, navbar)
 - Expo
 - CSS
