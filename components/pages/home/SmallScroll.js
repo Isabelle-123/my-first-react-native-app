@@ -1,6 +1,6 @@
 
 import React from "react";
-import { View, StyleSheet, Text, Image, Dimensions } from "react-native";
+import { View, StyleSheet, Text, Image, Dimensions, ScrollView } from "react-native";
 import { text } from '../../../globalStyle'
 
 const { width, height} = Dimensions.get('window');
@@ -13,12 +13,33 @@ const SmallScroll = () => {
       <Text style={text.medium}>
         Small horizontal scroll
       </Text>
-      <Image source={{ uri: 'https://picsum.photos/300/200' }}
+      <ScrollView
+            horizontal
+            pagingEnabled
+            showsHorizontalScrollIndicator={false}
+          >
+      <Image source={{ uri: 'https://picsum.photos/id/180/300/200' }}
         style={styles.img}
       />
+      <Image source={{ uri: 'https://picsum.photos/id/157/300/200' }}
+        style={styles.img}
+      />
+      <Image source={{ uri: 'https://picsum.photos/id/1060/300/200' }}
+        style={styles.img}
+      />
+       </ScrollView>
     </View>
   );
 };
+// 152
+// 157
+// 163
+// 159
+
+// 192
+// 175
+// 20
+// 2003
 
 const styles = StyleSheet.create({
   container: {
@@ -32,6 +53,7 @@ const styles = StyleSheet.create({
     flex: 1,
     width: height * .25,
     marginTop: 10,
+    marginRight: 20,
     resizeMode: 'cover',
     borderBottomLeftRadius: 10,
     borderBottomRightRadius: 10,
